@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Profile Swipe</title>
+    <link rel="stylesheet" href="swipe.css">
+     <header>
+        <img src="table.png" alt="My Logo" width="100" height="100">
+      <h1>Hostelbook</h1>
+      <nav>
+        <ul>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>H</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+               
+            </span>
+            <span class="span-mother2">
+                <span>H</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+               
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>A</span>
+                <span>B</span>
+                <span>O</span>
+                <span>U</span>
+                <span>T</span>
+                <span>&nbsp;</span>
+                <span>U</span>
+                <span>S</span>
+
+            </span>
+            <span class="span-mother2">
+              <span>A</span>
+              <span>B</span>
+              <span>O</span>
+              <span>U</span>
+              <span>T</span>
+              <span>&nbsp;</span>
+              <span>U</span>
+              <span>S</span>
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>Y</span>
+                <span>O</span>
+                <span>U</span>
+              </span>
+                
+            <span class="span-mother2">
+              <span>Y</span>
+              <span>O</span>
+              <span>U</span>
+             
+              
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>M</span>
+                <span>E</span>
+                
+            </span>
+            <span class="span-mother2">
+              <span>M</span>
+              <span>E</span>
+          
+            </span>
+          </button></a></li>
+        </ul>
+      </nav>
+    </header>
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img id="picture" class="oval" src="" alt="Profile picture">
+        <div id="details">
+          <p id="name"></p>
+          <p id="age"></p>
+          <p id="location"></p>
+          <p id="bio"></p>
+        </div>
+         <div id="like-wrapper">
+    <button id="like"><img src="https://img.icons8.com/material-rounded/24/000000/like--v2.png"/></button>
+  </div>
+      </div>
+      <button id="previous">Previous</button>
+      </br>
+      <button id="next">Next</button>
+    </div>
+    <div id="likedProfiles">
+      <h2>Liked Profiles</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody id="likedProfilesTable">
+        </tbody>
+      </table>
+    </div>
+ 
+    <script src="swipe.js"></script>
+      <footer>
+      <p>&copy; 2023 College Roommate choose</p>
+    </footer>
+  </body>
+</html>

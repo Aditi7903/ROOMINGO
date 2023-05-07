@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>College Roommate Tinder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+ 
+  </head>
+
+  <body>
+    <header>
+        <img src="table.png" alt="My Logo" width="100" height="100">
+      <h1>Hostelbook</h1>
+      <nav>
+        <ul>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>H</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+               
+            </span>
+            <span class="span-mother2">
+                <span>H</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+               
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>A</span>
+                <span>B</span>
+                <span>O</span>
+                <span>U</span>
+                <span>T</span>
+                <span>&nbsp;</span>
+                <span>U</span>
+                <span>S</span>
+
+            </span>
+            <span class="span-mother2">
+              <span>A</span>
+              <span>B</span>
+              <span>O</span>
+              <span>U</span>
+              <span>T</span>
+              <span>&nbsp;</span>
+              <span>U</span>
+              <span>S</span>
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>M</span>
+                <span>A</span>
+                <span>N</span>
+                <span>U</span>
+                <span>A</span>
+                <span>L</span>
+              </span>
+              <span class="span-mother2">
+                <span>M</span>
+                <span>A</span>
+                <span>N</span>
+                <span>U</span>
+                <span>A</span>
+                <span>L</span>
+              </span>
+            </button></a></li>
+            <li><a href="#"><button>
+              <span class="span-mother">
+                  <span>Y</span>
+                  <span>O</span>
+                  <span>U</span>
+              </span>    
+            <span class="span-mother2">
+              <span>Y</span>
+              <span>O</span>
+              <span>U</span>
+             
+              
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>M</span>
+                <span>E</span>
+                
+            </span>
+            <span class="span-mother2">
+              <span>M</span>
+              <span>E</span>
+          
+            </span>
+          </button></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<link rel="stylesheet" href="app.css">
+	<style>
+		
+.myclass {
+	font-size: 100px;
+	color: rgba(123, 0, 255, 0.878);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.classy{
+	font-size: 38px;
+	color:#efc7df;
+}
+
+body {
+font-family: Arial, sans-serif;
+background: url('IMG9.jpeg');opacity:0.9;
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-position: 20% 80%;  
+    background-color: #333
+}
+
+h1 {
+	color: #333;
+	text-align: center;
+}
+
+form {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #d9a8fe;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 40px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #0d3514;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="tel"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 40px;
+	border: none;
+	border-radius: 5px;
+	background-color: #fffdcb;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background-color: #333;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+ 
+	</style>
+</head>
+<body>
+	<div class ="myclass"><center><strong>New User Form</strong></center></div>
+	<form method="POST" action="{{ url_for('register')}}">
+		<div class ="classy">
+		<label for="name"><strong>Full Name:</strong></label>
+		<input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="branch"><strong>Branch:</strong></label>
+		<input type="text" id="branch" name="branch" placeholder="Enter your branch" required>
+
+        <label for="age"><strong>Age:</strong></label>
+		<input type="number" id="age" name="age" placeholder="Enter your age" required>
+ 
+        <label for="hometown"><strong>Hometown:</strong></label>
+		<input type="text" id="hometown" name="hometown" placeholder="Enter your Hometown" required>
+
+        <label for="preferred_floor"><strong>Preferred Floor:</strong></label>
+		<input type="number" id="preferred_floor" name="preferred_floor" placeholder="Enter your preferred floor" required>
+
+        <label for="specifications"><strong>Any specifications</strong></label>
+		<input type="text" id="specifications" name="specifications" placeholder="Enter any specifications if you want to" required>
+
+		<label for="email"><strong>Email Address:</strong></label>
+		<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+		<label for="contact_no"><strong>Contact Number:</strong></label>
+		<input type="tel" id="contact_no" name="contact_no" placeholder="Enter your contact number" required>
+
+		<input type="submit" value="SUBMIT">
+	</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>College Roommate Tinder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+ 
+  </head>
+
+  <body>
+    <header>
+        <img src="table.png" alt="My Logo" width="100" height="100">
+      <h1>Hostelbook</h1>
+      <nav>
+        <ul>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>H</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+               
+            </span>
+            <span class="span-mother2">
+                <span>H</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+               
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>A</span>
+                <span>B</span>
+                <span>O</span>
+                <span>U</span>
+                <span>T</span>
+                <span>&nbsp;</span>
+                <span>U</span>
+                <span>S</span>
+
+            </span>
+            <span class="span-mother2">
+              <span>A</span>
+              <span>B</span>
+              <span>O</span>
+              <span>U</span>
+              <span>T</span>
+              <span>&nbsp;</span>
+              <span>U</span>
+              <span>S</span>
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>M</span>
+                <span>A</span>
+                <span>N</span>
+                <span>U</span>
+                <span>A</span>
+                <span>L</span>
+              </span>
+              <span class="span-mother2">
+                <span>M</span>
+                <span>A</span>
+                <span>N</span>
+                <span>U</span>
+                <span>A</span>
+                <span>L</span>
+              </span>
+            </button></a></li>
+            <li><a href="#"><button>
+              <span class="span-mother">
+                  <span>Y</span>
+                  <span>O</span>
+                  <span>U</span>
+              </span>    
+            <span class="span-mother2">
+              <span>Y</span>
+              <span>O</span>
+              <span>U</span>
+             
+              
+            </span>
+          </button></a></li>
+          <li><a href="#"><button>
+            <span class="span-mother">
+                <span>M</span>
+                <span>E</span>
+                
+            </span>
+            <span class="span-mother2">
+              <span>M</span>
+              <span>E</span>
+          
+            </span>
+          </button></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ABOUT PAGE</title>
+  <style>
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em;
+    }
+
+    nav a.hovered {
+      color: #84ffc6;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin: 0;
+    }
+
+    nav a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em;
+    }
+
+    nav a.active {
+      background-color: #fff;
+      color: #333;
+    }
+
+    nav a.new-link {
+      color: #84ffc6;
+      padding: 0.5em;
+      margin-right: 50%;
+      font-size: 23px;
+      position: absolute;
+      right: 50px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    main {
+      margin-top: 4em;
+    }
+    body {
+        background: linear-gradient(to right, #00ffc3, #ff00e6);
+        overflow-x: hidden;
+      }
+      .mytext{
+         margin-top:-130%;
+         margin-left:0%;
+         margin-right: 20%;
+         font-size:25px;
+      }
+      .mytext1{
+        margin-top: 30%;
+        margin-left: 2%;
+        font-size:80px;
+        font-style:italic;
+        color:rgb(7, 16, 77);
+      }
+      .mytext2{
+        margin-top: -20%;
+        margin-left:15%;
+        margin-right: 50%;
+        font-size:20px;
+        font-style:oblique;
+        color:rgb(105, 5, 81)
+      }
+      .mytext3{
+        margin-top: 25%;
+        margin-left: 2%;
+        font-size:35px;
+        color:#6e3620
+      }
+      #my-container {
+        float:right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 100vh;
+        padding: 20px;
+      }
+
+      /* CSS for the image */
+      #my-image {
+        width: 55%;
+        height: 50%;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        margin-right:-3% ;
+        margin-top:-112%;
+        box-shadow: 2px 2px 4px black;
+        transform: rotate(180deg);
+        animation: flip 2s ease-in-out forwards;
+      }
+
+      /* CSS for the text */
+      #class1 {
+        font-size: 3em;
+        color:brown;
+        transform: translateX(-50%) rotate(180deg);
+        margin-right: 0%;
+        margin-top: -3%;
+        animation: flip 2s ease-in-out forwards;
+      }
+      #class2 {
+        font-size: 3em;
+        color:blue;
+        transform: translateX(-50%) rotate(180deg);
+        margin-right: 0%;
+        margin-top: -2%;
+        animation: flip 2s ease-in-out forwards;
+      }
+      @keyframes flip {
+        0% {
+          transform: rotate(180deg);
+        }
+        50% {
+          transform: rotate(180deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+      .figure {
+        position: absolute;
+        top:50%;
+        left:10%;
+        transform:translate(-50%,-50%);
+        width:200 px;
+        height:400 px;
+      }
+      .head {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color:#d1937b;
+        z-index: 2;
+      }
+      .neck {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #d1937b;
+      }
+      .torso {
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: 200px;
+        background-color: #87044ee2;
+        border-radius: 10px;
+      }
+      .arm-left,
+      .arm-right {
+        position: absolute;
+        top: 140px;
+        width: 40px;
+        height: 120px;
+        background-color:#d1937b;
+        border-radius: 10px;
+        transform: rotate(-45deg);
+      }
+      .arm-left {
+        left: -40px;
+      }
+      .arm-right {
+        right: -40px;
+        transform: rotate(45deg);
+      }
+      .hand-left,
+      .hand-right {
+        position: absolute;
+        top: 80px;
+        width: 40px;
+        height: 40px;
+        background-color: #d1937b;
+        border-radius: 50%;
+      }
+      .hand-left {
+        left: -10px;
+      }
+      .hand-right {
+        right: -10px;
+      }
+      .leg-left,
+      .leg-right {
+        position: absolute;
+        top: 300px;
+        width: 40px;
+        height: 120px;
+        background-color: #1f1203;
+        border-radius: 10px;
+        transform: rotate(-15deg);
+      }
+      .leg-left {
+        left: 20px;
+      }
+      .leg-right {
+        right: 20px;
+        transform: rotate(15deg);
+      }
+      </style>
+      <style type="text/css">
+		body {
+		  height: 100vh;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		}
+
+
+		.large-bubble {
+		  position: relative;
+		  width: 600px;
+		  height: 400px;
+		  border-radius: 50%;
+		  background-color: #999;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  font-size: 20px;
+      margin-top:-35%;
+      margin-left: 50%;
+		  color: white;
+		  animation: large-bubble-pop 1s ease-out;
+		}
+
+		.large-bubble::before {
+		  content: "";
+		  position: absolute;
+		  top: -40px;
+		  left: 50%;
+		  transform: translateX(-50%);
+		  width: 80px;
+		  height: 80px;
+		  border-radius: 50%;
+		  background-color: #999;
+		  z-index: -1;
+      color:rgb(38, 95, 142);
+		  animation: large-bubble-float 2s ease-in-out infinite;
+		}
+
+		@keyframes small-bubble-float {
+		  0% {
+		    transform: translateY(0);
+		  }
+		  50% {
+		    transform: translateY(-10px);
+		  }
+		  100% {
+		    transform: translateY(0);
+		  }
+		}
+
+		@keyframes large-bubble-float {
+		  0% {
+		    transform: translateX(-50%) translateY(0);
+		  }
+		  50% {
+		    transform: translateX(-50%) translateY(-10px);
+		  }
+		  100% {
+		    transform: translateX(-50%) translateY(0);
+		  }
+		}
+
+		@keyframes large-bubble-pop {
+		  0% {
+		    transform: scale(0);
+		  }
+		  100% {
+		    transform: scale(1);
+		  }
+		}
+    @keyframes slide {
+      from { transform: translateX(0%); }
+      to { transform: translateX(1000%); }
+    }
+    
+    .move {
+      animation: slide 750s infinite;
+      margin-top:50% ;
+      margin-bottom: 130%;
+      font-size:20px;
+      white-space: nowrap;
+      color:darkred;
+    }
+    img{
+        float:left;
+    }
+    
+  </style>
+</head>
+<body>
+    <main>
+        <div class="move">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          
+          <strong>
+            KNOW MORE ABOUT "ROOMINGO"!!</strong>
+            <br>
+            <br>
+          </div>
+          <p class="mytext" >Looking for a roommate can be daunting, but remember that it's an opportunity to meet someone who could become a close friend and make your living situation even better.            Don't settle for just any roommate. Take the time to find someone who shares your values and lifestyle, and who you can trust to make your home a happy and peaceful place.
+            Finding the right roommate can make all the difference. It's not just about sharing rent, it's about sharing your space and creating a comfortable and happy living environment.
+            Your roommate is more than just someone you share a roof with. They can be your support system, your confidant, and your friend. Take the time to find the right one.         
+        </p><br><br>
+          <p class="mytext1">
+           "Double the fun, half the rent"
+          </p>
+      
+          <div class="large-bubble">
+            <span>Roommate, roommate, where art thou?</span>
+          </div>
+      
+          <div id="my-container">
+            <img id="my-image" src="music.png" alt="My Image">
+            <span id="class1">R</span>
+            <span id="class2">O</span>
+            <span id="class2">O</span>
+            <span id="class2">M</span>
+            <span id="class2">I</span>
+            <span id="class2">N</span>
+            <span id="class1">G</span>
+            <span id="class1">O</span>
+           
+            </div>
+          <div class="figure">
+              <div class="head"></div>
+              <div class="neck"></div>
+              <div class="torso"></div>
+              <div class="arm-left">
+                <div class="hand-left"></div>
+              </div>
+              <div class="arm-right">
+                <div class="hand-right"></div>
+              </div>
+              <div class="leg-left">
+                </div>
+               <div class="leg-right">
+               </div>
+               </div>
+               <p class="mytext2">
+                Living with a roommate can be a lot of fun, but it's important to find someone who is reliable, responsible, and respectful. Take the time to choose the right person and enjoy all the benefits of having a great roommate
+               </p>
+               <p class="mytext3"><strong>
+                ABOUT US -</strong><br><br>
+                <img src="Aditi.jpeg" style="width:300px"> NAME:ADITI SINGH<br> EMAIL:aditi.singh@students.iiit.ac.in<br><br><br><br><br><br><br><br>
+                <img src="Neha.jpeg" style="width:300px"> NAME:KALLURI NEHA VARSHITHA<br> EMAIL:@students.iiit.ac.in
+                <img src="Divyansh.jpeg" style="width:300px"> NAME:DIVYANSH JAIN<br> EMAIL:divyansh.jain@students.iiit.ac.in
+                       
+        
+            </body>
+</html>
